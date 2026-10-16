@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "title": "Houssem Ben Hassen - Frontend Technical Lead",
+    "shortName": "Houssem Ben Hassen",
+    "description": "Frontend Technical Lead with 8+ years of experience architecting large-scale web applications, leading engineering teams, and expanding into AI engineering.",
+    "keywords": [
+      "Frontend Technical Lead",
+      "Frontend Architect",
+      "Vue.js",
+      "React",
+      "Micro-frontends",
+      "Software Architecture",
+      "AI Engineering",
+      "Tunisia",
+      "France"
+    ]
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Work",
+    "contact": "Contact",
+    "downloadCv": "Download CV",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "switchLanguage": "Switch language",
+    "skipToContent": "Skip to main content"
+  },
+  "hero": {
+    "name": "Houssem Ben Hassen",
+    "headline": "Frontend Technical Lead for teams building products that scale.",
+    "subtext": "8+ years architecting frontend systems, leading engineering teams, and shipping resilient products. Currently expanding into AI engineering.",
+    "ctaPrimary": "View work",
+    "ctaSecondary": "Download CV",
+    "photoAlt": "Portrait of Houssem Ben Hassen"
+  },
+  "about": {
+    "heading": "About",
+    "paragraphs": [
+      "My path into software started with embedded systems: sensors, microcontrollers, and the kind of programming where a wasted cycle actually matters. That discipline carried over when I moved to the web, and it still shapes how I build today.",
+      "Over the past 8+ years, I've grown from writing frontend code to leading it: designing micro-frontend architectures, setting up the CI/CD pipelines that ship them, and mentoring the developers who maintain them. I'm just as comfortable in a Node.js service or a PostgreSQL schema as I am in a component library, which makes me a useful bridge between frontend and backend teams rather than a specialist who only sees half the system.",
+      "I'm currently applying that same systems-first curiosity to AI engineering: agents, retrieval, and the tooling that makes developers faster, not just the frontend that sits on top of it."
+    ]
+  },
+  "experience": {
+    "heading": "Experience",
+    "subheading": "Eight years, five companies, one throughline: frontend systems built to last.",
+    "companies": [
+      {
+        "id": "iobeya",
+        "name": "iObeya",
+        "location": "Tunisia",
+        "period": "Aug 2022 - Present",
+        "roles": [
+          {
+            "title": "Frontend Technical Lead",
+            "period": "Dec 2022 - Present",
+            "summary": "Leading frontend architecture for VMS, iObeya's newest product, and setting technical direction for the team that builds it.",
+            "achievements": [
+              "Designed and led the adoption of a micro-frontend architecture for VMS, letting feature teams ship independently without stepping on each other's code.",
+              "Built and shipped an internal Vue.js component library, giving product teams a consistent, reusable UI foundation.",
+              "Replaced ad-hoc event handling with a centralized, finite-state-machine-driven event system, making complex UI state predictable and easier to debug.",
+              "Set up GitLab CI pipelines automating deployment and static code analysis, removing manual steps from every release.",
+              "Run code reviews and mentor junior developers, raising the team's baseline for code quality and architectural judgment."
+            ],
+            "technologies": ["Vue.js", "Micro-frontends", "XState", "GitLab CI", "Docker", "Kubernetes"]
+          },
+          {
+            "title": "Senior Frontend Developer",
+            "period": "Aug 2022 - Dec 2022",
+            "summary": "Joined iObeya to work on the frontend of its core visual management and collaboration product.",
+            "achievements": [
+              "Built and maintained core frontend features for iObeya's visual collaboration platform using Vue and Vuex.",
+              "Covered critical UI logic with Jest and used XState to manage complex interaction states.",
+              "Worked with AWS Cognito and S3 for authentication and asset storage."
+            ],
+            "technologies": ["Vue", "Vuex", "Docker", "AWS Cognito", "AWS S3", "Jest", "XState"]
+          }
+        ]
+      },
+      {
+        "id": "ncq-devstudio",
+        "name": "NCQ-devstudio",
+        "location": "Tunisia",
+        "period": "Oct 2020 - Jul 2022",
+        "roles": [
+          {
+            "title": "Frontend Developer",
+            "period": "Oct 2020 - Jul 2022",
+            "summary": "Delivered frontend for two products end to end, from early build-out through to production.",
+            "achievements": [
+              "Built the frontend of a trading platform using React, Redux, and Material UI, integrated with AWS Cognito and S3.",
+              "Developed the frontend for izi-place, a web marketplace application, with React, Redux, and Material UI.",
+              "Worked with Node.js and MongoDB across the stack where backend support was needed."
+            ],
+            "technologies": ["React", "Redux", "Material UI", "AWS Cognito", "AWS S3", "Docker", "Node.js", "MongoDB"]
+          }
+        ]
+      },
+      {
+        "id": "exco",
+        "name": "Exco Tunisia",
+        "location": "Tunisia",
+        "period": "Jun 2020 - Oct 2020",
+        "roles": [
+          {
+            "title": "Fullstack Web Developer",
+            "period": "Jun 2020 - Oct 2020",
+            "summary": "Contributed frontend and backend work to Paytea, an HR and payroll management platform.",
+            "achievements": [
+              "Built the frontend in React and Redux.",
+              "Developed backend services in Node.js using the Sails framework.",
+              "Built a recruitment flow with video capture and streaming, where candidate applications were submitted as recorded video.",
+              "Worked in a Scrum team with PostgreSQL as the primary datastore."
+            ],
+            "technologies": ["React", "Redux", "Node.js", "Sails", "PostgreSQL", "Scrum"]
+          }
+        ]
+      },
+      {
+        "id": "kyalistech",
+        "name": "KyalisTech",
+        "location": "Tunisia",
+        "period": "Sep 2018 - Jan 2020",
+        "roles": [
+          {
+            "title": "Fullstack Web Developer",
+            "period": "Sep 2018 - Jan 2020",
+            "summary": "Built Taiga.voyage, a travel comparison product, end to end for a KyalisTech client.",
+            "achievements": [
+              "Developed the frontend with React and Redux.",
+              "Built backend services in Node.js and designed the PostgreSQL data model.",
+              "Owned database analysis and schema decisions for the product."
+            ],
+            "technologies": ["React", "Redux", "Node.js", "PostgreSQL", "Express.js", "Kubernetes"]
+          }
+        ]
+      },
+      {
+        "id": "tunpixel",
+        "name": "Tunpixel",
+        "location": "Tunisia",
+        "period": "Nov 2017 - Aug 2018",
+        "roles": [
+          {
+            "title": "Fullstack Web Developer",
+            "period": "Nov 2017 - Aug 2018",
+            "summary": "Worked across the frontend and backend of jobi.tn, a recruitment platform, and its video-based application flow.",
+            "achievements": [
+              "Contributed to frontend and backend development of the jobi.tn recruitment website.",
+              "Wrote unit tests for REST and SOAP APIs used by Tunpixel's clients."
+            ],
+            "technologies": ["Angular", "Vue.js", "jQuery", "Node.js", "Express", "Sails.js", "Docker", "Redis", "PostgreSQL", "MongoDB"]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Technical skills",
+    "subheading": "Organized by where they're used, not how they'd look on a progress bar.",
+    "categories": [
+      {
+        "name": "Frontend",
+        "items": ["React", "Vue.js", "Angular", "AngularJS", "HTML5", "CSS3", "XState"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js", "Express.js", "KOA", "Sails"]
+      },
+      {
+        "name": "Databases",
+        "items": ["PostgreSQL", "MongoDB", "Oracle", "Redis"]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "items": ["AWS Cognito", "AWS S3", "Docker", "Kubernetes", "GitLab CI", "Git"]
+      },
+      {
+        "name": "Architecture",
+        "items": ["Micro-frontends", "Design Patterns", "UML", "Component Libraries", "Finite State Machines"]
+      },
+      {
+        "name": "Testing",
+        "items": ["Jest", "Unit Testing", "REST APIs", "SOAP APIs"]
+      },
+      {
+        "name": "Core Languages",
+        "items": ["JavaScript", "Python", "Java", "C/C++"]
+      },
+      {
+        "name": "Leadership & Process",
+        "items": ["Code Review", "Mentoring", "Sprint Planning", "Agile", "Scrum"]
+      },
+      {
+        "name": "AI Engineering",
+        "note": "Actively building",
+        "items": ["LLMs", "RAG", "AI Agents", "Context Engineering", "MCP", "Prompt Engineering"]
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Featured work",
+    "subheading": "A selection of products shipped across five companies and eight years.",
+    "items": [
+      {
+        "id": "vms",
+        "name": "VMS - Micro-frontend Visual Management Platform",
+        "company": "iObeya",
+        "period": "2022 - Present",
+        "problem": "iObeya needed a new visual management product built on an architecture that could scale across multiple independent teams without becoming a monolith.",
+        "solution": "Designed and led the implementation of a micro-frontend architecture, paired with a shared Vue.js component library and a centralized, state-machine-driven event system.",
+        "highlights": [
+          "Independent team ownership of feature domains",
+          "Reusable component library adopted across products",
+          "Centralized event handling via finite state machines"
+        ],
+        "technologies": ["Vue.js", "Micro-frontends", "XState", "GitLab CI", "Docker"]
+      },
+      {
+        "id": "iobeya-core",
+        "name": "iObeya Visual Collaboration Platform",
+        "company": "iObeya",
+        "period": "2022",
+        "problem": "The core iObeya product needed continued frontend development to support visual collaboration workflows for enterprise teams.",
+        "solution": "Built and maintained frontend features with Vue and Vuex, covering critical UI logic with Jest and managing complex interactions with XState.",
+        "highlights": [
+          "Authentication via AWS Cognito",
+          "Asset handling with S3",
+          "State-machine-driven interaction logic"
+        ],
+        "technologies": ["Vue", "Vuex", "Jest", "XState", "AWS Cognito", "AWS S3"]
+      },
+      {
+        "id": "trading-platform",
+        "name": "Trading Platform",
+        "company": "NCQ-devstudio",
+        "period": "2020 - 2021",
+        "problem": "A financial services client needed a frontend that could present dense trading data clearly to professional users.",
+        "solution": "Delivered the platform's frontend in React, Redux, and Material UI, connected to AWS-backed authentication and storage.",
+        "highlights": [
+          "Complex state management with Redux",
+          "Enterprise-grade UI with Material UI",
+          "Cloud-backed authentication and storage"
+        ],
+        "technologies": ["React", "Redux", "Material UI", "AWS Cognito", "AWS S3"]
+      },
+      {
+        "id": "taiga-voyage",
+        "name": "Taiga.voyage",
+        "company": "KyalisTech",
+        "period": "2018 - 2020",
+        "problem": "A client needed a travel comparison product, similar in spirit to Trivago, built from the ground up.",
+        "solution": "Built the frontend in React and Redux while owning backend services in Node.js and the PostgreSQL data model.",
+        "highlights": [
+          "Full-stack ownership from schema to UI",
+          "Comparison-focused product for travel search"
+        ],
+        "technologies": ["React", "Redux", "Node.js", "PostgreSQL", "Express.js"]
+      },
+      {
+        "id": "jobi",
+        "name": "jobi.tn Recruitment Platform",
+        "company": "Tunpixel",
+        "period": "2017 - 2018",
+        "problem": "Tunpixel needed a recruitment platform that let candidates apply with recorded video instead of static resumes.",
+        "solution": "Contributed to both frontend and backend development, building the video capture and streaming application flow, and covering client APIs with unit tests.",
+        "highlights": [
+          "Video-based application flow",
+          "REST & SOAP API test coverage"
+        ],
+        "technologies": ["Angular", "Vue.js", "Node.js", "Express", "Sails.js", "MongoDB", "PostgreSQL"]
+      }
+    ]
+  },
+  "architecture": {
+    "heading": "Architecture & engineering",
+    "subheading": "What sets the work apart from frontend-only development.",
+    "pillars": [
+      {
+        "name": "Micro-frontend architecture",
+        "description": "Designed and implemented micro-frontend architectures that let independent teams ship features without stepping on each other's code, most recently for iObeya's VMS product."
+      },
+      {
+        "name": "Component libraries",
+        "description": "Built and maintained internal Vue.js component libraries, giving product teams a shared, consistent UI foundation instead of one-off implementations."
+      },
+      {
+        "name": "State management at scale",
+        "description": "Replaced ad-hoc event handling with finite-state-machine-driven systems using XState, making complex UI behavior predictable, testable, and easier to reason about."
+      },
+      {
+        "name": "CI/CD & delivery",
+        "description": "Set up GitLab CI pipelines automating deployment and static analysis, removing manual steps from the release process."
+      },
+      {
+        "name": "Full-stack fluency",
+        "description": "Comfortable across the stack, from Node.js, Express, and Sails backends to PostgreSQL and MongoDB data models, which grounds frontend architecture decisions in how the whole system behaves."
+      },
+      {
+        "name": "Cloud & containers",
+        "description": "Works with Docker, Kubernetes, and AWS (Cognito, S3) to deploy and operate the systems he architects."
+      },
+      {
+        "name": "Technical leadership",
+        "description": "Runs code reviews, mentors junior developers, and leads sprint planning, treating team growth as part of the job rather than a side effect of it."
+      }
+    ]
+  },
+  "aiJourney": {
+    "heading": "AI engineering",
+    "headline": "Expanding into AI engineering.",
+    "paragraphs": [
+      "After years of building the systems developers and users interact with directly, I'm now applying the same engineering rigor to AI: how agents are built, how context is engineered, and how developer tools built on top of LLMs actually hold up in practice.",
+      "This is active, hands-on learning built on top of 8+ years of production engineering experience, not a pivot away from it."
+    ],
+    "areasLabel": "Currently exploring",
+    "areas": ["LLMs", "RAG", "AI Agents", "Context Engineering", "MCP", "Prompt Engineering", "CLI Automation", "Developer Productivity Tooling"]
+  },
+  "education": {
+    "heading": "Education",
+    "schools": [
+      {
+        "name": "INSAT",
+        "degree": "National Diploma in Industrial Computer Science Engineering",
+        "detail": "Embedded Systems option",
+        "period": "2012 - 2017"
+      },
+      {
+        "name": "Lycée El Metouia",
+        "degree": "Baccalaureate in Mathematics",
+        "detail": "Graduated with honors",
+        "period": "2011 - 2012"
+      }
+    ],
+    "foundationsHeading": "Foundations",
+    "foundations": "Before moving fully into web development, I worked on embedded systems and IoT projects, including a supervision platform for LoRa networks built during my final year project at INSAT.",
+    "recognitionHeading": "Recognition",
+    "recognition": [
+      {
+        "name": "All Star Netlinks Embedded Systems Challenge",
+        "result": "2nd place",
+        "period": "2017"
+      },
+      {
+        "name": "Tunirobots Exhibition",
+        "result": "2nd place",
+        "detail": "Designed and built a mobile app that controlled a suitcase to follow its owner.",
+        "period": "2015"
+      }
+    ]
+  },
+  "languages": {
+    "heading": "Languages",
+    "items": [
+      { "name": "French", "level": "Professional proficiency" },
+      { "name": "English", "level": "Advanced professional proficiency" },
+      { "name": "Arabic", "level": "Native" }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "headline": "Open to Frontend Technical Lead and senior engineering roles.",
+    "subtext": "Based in Tunisia, open to opportunities with French and international product companies.",
+    "email": "benhsan.houssem01@gmail.com",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "githubComingSoon": "Coming soon",
+    "locationLabel": "Location",
+    "location": "Tunisia",
+    "downloadCv": "Download CV",
+    "sendEmail": "Send an email"
+  },
+  "footer": {
+    "tagline": "Frontend Technical Lead, currently expanding into AI engineering.",
+    "rightsReserved": "All rights reserved.",
+    "backToTop": "Back to top"
+  }
+}

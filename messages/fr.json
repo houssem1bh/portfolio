@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "title": "Houssem Ben Hassen - Frontend Technical Lead",
+    "shortName": "Houssem Ben Hassen",
+    "description": "Frontend Technical Lead avec plus de 8 ans d'expérience dans l'architecture d'applications web à grande échelle, le management d'équipes d'ingénierie et une montée en compétences en ingénierie de l'IA.",
+    "keywords": [
+      "Frontend Technical Lead",
+      "Architecte Frontend",
+      "Vue.js",
+      "React",
+      "Micro-frontends",
+      "Architecture logicielle",
+      "Ingénierie IA",
+      "Tunisie",
+      "France"
+    ]
+  },
+  "nav": {
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact",
+    "downloadCv": "Télécharger le CV",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "toggleTheme": "Changer de thème",
+    "switchLanguage": "Changer de langue",
+    "skipToContent": "Aller au contenu principal"
+  },
+  "hero": {
+    "name": "Houssem Ben Hassen",
+    "headline": "Frontend Technical Lead pour des équipes qui construisent des produits à grande échelle.",
+    "subtext": "Plus de 8 ans à concevoir des architectures frontend, encadrer des équipes d'ingénierie et livrer des produits robustes. Actuellement en montée en compétences sur l'ingénierie de l'IA.",
+    "ctaPrimary": "Voir les projets",
+    "ctaSecondary": "Télécharger le CV",
+    "photoAlt": "Portrait de Houssem Ben Hassen"
+  },
+  "about": {
+    "heading": "À propos",
+    "paragraphs": [
+      "Mon parcours dans le développement a commencé par les systèmes embarqués : capteurs, microcontrôleurs, et ce type de programmation où un cycle gaspillé a un vrai impact. Cette rigueur s'est prolongée quand je suis passé au web, et elle façonne encore ma façon de construire aujourd'hui.",
+      "Au cours des 8 dernières années, je suis passé de développeur frontend à responsable technique frontend : conception d'architectures micro-frontend, mise en place des pipelines CI/CD qui les déploient, et mentorat des développeurs qui les maintiennent. Je suis tout aussi à l'aise dans un service Node.js ou un schéma PostgreSQL que dans une bibliothèque de composants, ce qui fait de moi un pont utile entre les équipes frontend et backend plutôt qu'un spécialiste qui ne voit que la moitié du système.",
+      "J'applique aujourd'hui cette même curiosité orientée systèmes à l'ingénierie de l'IA : agents, recherche augmentée (RAG), et les outils qui rendent les développeurs plus efficaces, pas seulement l'interface qui les affiche."
+    ]
+  },
+  "experience": {
+    "heading": "Expérience",
+    "subheading": "Huit ans, cinq entreprises, un fil conducteur : des systèmes frontend construits pour durer.",
+    "companies": [
+      {
+        "id": "iobeya",
+        "name": "iObeya",
+        "location": "Tunisie",
+        "period": "Août 2022 - Présent",
+        "roles": [
+          {
+            "title": "Frontend Technical Lead",
+            "period": "Déc. 2022 - Présent",
+            "summary": "Responsable de l'architecture frontend de VMS, le nouveau produit d'iObeya, et de la direction technique de l'équipe qui le construit.",
+            "achievements": [
+              "Conception et mise en place d'une architecture micro-frontend pour VMS, permettant à chaque équipe fonctionnelle de livrer indépendamment sans empiéter sur le code des autres.",
+              "Développement et déploiement d'une bibliothèque de composants Vue.js interne, offrant aux équipes produit une base UI cohérente et réutilisable.",
+              "Remplacement d'une gestion d'événements ad hoc par un système centralisé piloté par des machines à états finis, rendant l'état de l'interface prévisible et plus facile à déboguer.",
+              "Mise en place de pipelines GitLab CI automatisant le déploiement et l'analyse statique du code, supprimant les étapes manuelles à chaque mise en production.",
+              "Animation des revues de code et mentorat des développeurs juniors, élevant le niveau de qualité de code et de jugement architectural de l'équipe."
+            ],
+            "technologies": ["Vue.js", "Micro-frontends", "XState", "GitLab CI", "Docker", "Kubernetes"]
+          },
+          {
+            "title": "Senior Frontend Developer",
+            "period": "Août 2022 - Déc. 2022",
+            "summary": "Arrivée chez iObeya pour travailler sur le frontend de son produit principal de gestion visuelle et de collaboration.",
+            "achievements": [
+              "Développement et maintenance des fonctionnalités frontend principales de la plateforme de collaboration visuelle d'iObeya avec Vue et Vuex.",
+              "Couverture de la logique UI critique avec Jest et gestion des états d'interaction complexes avec XState.",
+              "Utilisation d'AWS Cognito et S3 pour l'authentification et le stockage des assets."
+            ],
+            "technologies": ["Vue", "Vuex", "Docker", "AWS Cognito", "AWS S3", "Jest", "XState"]
+          }
+        ]
+      },
+      {
+        "id": "ncq-devstudio",
+        "name": "NCQ-devstudio",
+        "location": "Tunisie",
+        "period": "Oct. 2020 - Juil. 2022",
+        "roles": [
+          {
+            "title": "Frontend Developer",
+            "period": "Oct. 2020 - Juil. 2022",
+            "summary": "Livraison du frontend de deux produits de bout en bout, du développement initial jusqu'à la mise en production.",
+            "achievements": [
+              "Développement du frontend d'une plateforme de trading avec React, Redux et Material UI, intégrée à AWS Cognito et S3.",
+              "Développement du frontend d'izi-place, une marketplace web, avec React, Redux et Material UI.",
+              "Intervention sur l'ensemble de la stack avec Node.js et MongoDB lorsque le backend nécessitait du support."
+            ],
+            "technologies": ["React", "Redux", "Material UI", "AWS Cognito", "AWS S3", "Docker", "Node.js", "MongoDB"]
+          }
+        ]
+      },
+      {
+        "id": "exco",
+        "name": "Exco Tunisia",
+        "location": "Tunisie",
+        "period": "Juin 2020 - Oct. 2020",
+        "roles": [
+          {
+            "title": "Fullstack Web Developer",
+            "period": "Juin 2020 - Oct. 2020",
+            "summary": "Contribution frontend et backend à Paytea, une plateforme de gestion RH et paie.",
+            "achievements": [
+              "Développement du frontend en React et Redux.",
+              "Développement de services backend en Node.js avec le framework Sails.",
+              "Développement d'un parcours de recrutement avec capture et streaming vidéo, où les candidatures étaient soumises sous forme de vidéos enregistrées.",
+              "Travail au sein d'une équipe Scrum avec PostgreSQL comme base de données principale."
+            ],
+            "technologies": ["React", "Redux", "Node.js", "Sails", "PostgreSQL", "Scrum"]
+          }
+        ]
+      },
+      {
+        "id": "kyalistech",
+        "name": "KyalisTech",
+        "location": "Tunisie",
+        "period": "Sept. 2018 - Janv. 2020",
+        "roles": [
+          {
+            "title": "Fullstack Web Developer",
+            "period": "Sept. 2018 - Janv. 2020",
+            "summary": "Développement de Taiga.voyage, un produit de comparaison de voyages, de bout en bout pour un client de KyalisTech.",
+            "achievements": [
+              "Développement du frontend avec React et Redux.",
+              "Développement des services backend en Node.js et conception du modèle de données PostgreSQL.",
+              "Responsabilité de l'analyse de la base de données et des choix de schéma pour le produit."
+            ],
+            "technologies": ["React", "Redux", "Node.js", "PostgreSQL", "Express.js", "Kubernetes"]
+          }
+        ]
+      },
+      {
+        "id": "tunpixel",
+        "name": "Tunpixel",
+        "location": "Tunisie",
+        "period": "Nov. 2017 - Août 2018",
+        "roles": [
+          {
+            "title": "Fullstack Web Developer",
+            "period": "Nov. 2017 - Août 2018",
+            "summary": "Intervention sur le frontend et le backend de jobi.tn, une plateforme de recrutement, et son parcours de candidature vidéo.",
+            "achievements": [
+              "Contribution au développement frontend et backend du site de recrutement jobi.tn.",
+              "Rédaction de tests unitaires pour les API REST et SOAP utilisées par les clients de Tunpixel."
+            ],
+            "technologies": ["Angular", "Vue.js", "jQuery", "Node.js", "Express", "Sails.js", "Docker", "Redis", "PostgreSQL", "MongoDB"]
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Compétences techniques",
+    "subheading": "Organisées par contexte d'utilisation, pas par barre de progression.",
+    "categories": [
+      {
+        "name": "Frontend",
+        "items": ["React", "Vue.js", "Angular", "AngularJS", "HTML5", "CSS3", "XState"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js", "Express.js", "KOA", "Sails"]
+      },
+      {
+        "name": "Bases de données",
+        "items": ["PostgreSQL", "MongoDB", "Oracle", "Redis"]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "items": ["AWS Cognito", "AWS S3", "Docker", "Kubernetes", "GitLab CI", "Git"]
+      },
+      {
+        "name": "Architecture",
+        "items": ["Micro-frontends", "Design Patterns", "UML", "Bibliothèques de composants", "Machines à états finis"]
+      },
+      {
+        "name": "Tests",
+        "items": ["Jest", "Tests unitaires", "API REST", "API SOAP"]
+      },
+      {
+        "name": "Langages fondamentaux",
+        "items": ["JavaScript", "Python", "Java", "C/C++"]
+      },
+      {
+        "name": "Leadership & Process",
+        "items": ["Revue de code", "Mentorat", "Sprint Planning", "Agile", "Scrum"]
+      },
+      {
+        "name": "Ingénierie IA",
+        "note": "En cours d'acquisition",
+        "items": ["LLMs", "RAG", "Agents IA", "Context Engineering", "MCP", "Prompt Engineering"]
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Projets phares",
+    "subheading": "Une sélection de produits livrés sur cinq entreprises et huit ans.",
+    "items": [
+      {
+        "id": "vms",
+        "name": "VMS - Plateforme de gestion visuelle micro-frontend",
+        "company": "iObeya",
+        "period": "2022 - Présent",
+        "problem": "iObeya avait besoin d'un nouveau produit de gestion visuelle reposant sur une architecture capable de monter en charge sur plusieurs équipes indépendantes sans devenir un monolithe.",
+        "solution": "Conception et mise en œuvre d'une architecture micro-frontend, associée à une bibliothèque de composants Vue.js partagée et à un système d'événements centralisé piloté par des machines à états.",
+        "highlights": [
+          "Propriété indépendante des domaines fonctionnels par équipe",
+          "Bibliothèque de composants réutilisable adoptée sur plusieurs produits",
+          "Gestion centralisée des événements via des machines à états finis"
+        ],
+        "technologies": ["Vue.js", "Micro-frontends", "XState", "GitLab CI", "Docker"]
+      },
+      {
+        "id": "iobeya-core",
+        "name": "Plateforme de collaboration visuelle iObeya",
+        "company": "iObeya",
+        "period": "2022",
+        "problem": "Le produit principal d'iObeya nécessitait un développement frontend continu pour soutenir ses workflows de collaboration visuelle destinés aux grandes entreprises.",
+        "solution": "Développement et maintenance des fonctionnalités frontend avec Vue et Vuex, couverture de la logique UI critique avec Jest et gestion des interactions complexes avec XState.",
+        "highlights": [
+          "Authentification via AWS Cognito",
+          "Gestion des assets avec S3",
+          "Logique d'interaction pilotée par machines à états"
+        ],
+        "technologies": ["Vue", "Vuex", "Jest", "XState", "AWS Cognito", "AWS S3"]
+      },
+      {
+        "id": "trading-platform",
+        "name": "Plateforme de trading",
+        "company": "NCQ-devstudio",
+        "period": "2020 - 2021",
+        "problem": "Un client du secteur financier avait besoin d'un frontend capable de présenter clairement des données de trading denses à des utilisateurs professionnels.",
+        "solution": "Livraison du frontend de la plateforme en React, Redux et Material UI, connecté à une authentification et un stockage hébergés sur AWS.",
+        "highlights": [
+          "Gestion d'état complexe avec Redux",
+          "Interface de niveau entreprise avec Material UI",
+          "Authentification et stockage cloud"
+        ],
+        "technologies": ["React", "Redux", "Material UI", "AWS Cognito", "AWS S3"]
+      },
+      {
+        "id": "taiga-voyage",
+        "name": "Taiga.voyage",
+        "company": "KyalisTech",
+        "period": "2018 - 2020",
+        "problem": "Un client avait besoin d'un produit de comparaison de voyages, dans l'esprit de Trivago, construit de zéro.",
+        "solution": "Développement du frontend en React et Redux, avec la responsabilité des services backend en Node.js et du modèle de données PostgreSQL.",
+        "highlights": [
+          "Responsabilité full-stack, du schéma à l'interface",
+          "Produit de recherche de voyages orienté comparaison"
+        ],
+        "technologies": ["React", "Redux", "Node.js", "PostgreSQL", "Express.js"]
+      },
+      {
+        "id": "jobi",
+        "name": "Plateforme de recrutement jobi.tn",
+        "company": "Tunpixel",
+        "period": "2017 - 2018",
+        "problem": "Tunpixel avait besoin d'une plateforme de recrutement permettant aux candidats de postuler avec une vidéo enregistrée plutôt qu'un CV classique.",
+        "solution": "Contribution au développement frontend et backend, construction du parcours de capture et de streaming vidéo, et couverture des API clientes par des tests unitaires.",
+        "highlights": [
+          "Parcours de candidature basé sur la vidéo",
+          "Couverture de tests des API REST et SOAP"
+        ],
+        "technologies": ["Angular", "Vue.js", "Node.js", "Express", "Sails.js", "MongoDB", "PostgreSQL"]
+      }
+    ]
+  },
+  "architecture": {
+    "heading": "Architecture & ingénierie",
+    "subheading": "Ce qui distingue ce travail d'un développement frontend classique.",
+    "pillars": [
+      {
+        "name": "Architecture micro-frontend",
+        "description": "Conception et mise en œuvre d'architectures micro-frontend permettant à des équipes indépendantes de livrer des fonctionnalités sans empiéter sur le code des autres, plus récemment pour le produit VMS d'iObeya."
+      },
+      {
+        "name": "Bibliothèques de composants",
+        "description": "Développement et maintenance de bibliothèques de composants Vue.js internes, offrant aux équipes produit une base UI partagée et cohérente plutôt que des implémentations ponctuelles."
+      },
+      {
+        "name": "Gestion d'état à grande échelle",
+        "description": "Remplacement d'une gestion d'événements ad hoc par des systèmes pilotés par des machines à états finis avec XState, rendant le comportement UI complexe prévisible, testable et plus facile à raisonner."
+      },
+      {
+        "name": "CI/CD & livraison",
+        "description": "Mise en place de pipelines GitLab CI automatisant le déploiement et l'analyse statique, supprimant les étapes manuelles du processus de mise en production."
+      },
+      {
+        "name": "Polyvalence full-stack",
+        "description": "À l'aise sur toute la stack, des backends Node.js, Express et Sails aux modèles de données PostgreSQL et MongoDB, ce qui ancre les décisions d'architecture frontend dans le fonctionnement réel du système."
+      },
+      {
+        "name": "Cloud & conteneurs",
+        "description": "Travail avec Docker, Kubernetes et AWS (Cognito, S3) pour déployer et exploiter les systèmes qu'il conçoit."
+      },
+      {
+        "name": "Leadership technique",
+        "description": "Anime les revues de code, encadre les développeurs juniors et pilote la planification des sprints, la montée en compétence de l'équipe faisant partie intégrante du métier."
+      }
+    ]
+  },
+  "aiJourney": {
+    "heading": "Ingénierie IA",
+    "headline": "Une montée en compétences vers l'ingénierie de l'IA.",
+    "paragraphs": [
+      "Après des années à construire les systèmes avec lesquels développeurs et utilisateurs interagissent directement, j'applique aujourd'hui la même rigueur d'ingénierie à l'IA : la construction d'agents, l'ingénierie du contexte, et la façon dont les outils développeurs construits sur des LLM tiennent réellement la route en pratique.",
+      "Il s'agit d'un apprentissage actif et pratique, construit sur plus de 8 ans d'expérience en ingénierie de production, pas d'un virage qui l'abandonnerait."
+    ],
+    "areasLabel": "En cours d'exploration",
+    "areas": ["LLMs", "RAG", "Agents IA", "Context Engineering", "MCP", "Prompt Engineering", "Automatisation CLI", "Outils de productivité développeur"]
+  },
+  "education": {
+    "heading": "Formation",
+    "schools": [
+      {
+        "name": "INSAT",
+        "degree": "Diplôme National d'Ingénieur en Informatique Industrielle",
+        "detail": "Option Systèmes Embarqués",
+        "period": "2012 - 2017"
+      },
+      {
+        "name": "Lycée El Metouia",
+        "degree": "Baccalauréat en Mathématiques",
+        "detail": "Diplômé avec mention",
+        "period": "2011 - 2012"
+      }
+    ],
+    "foundationsHeading": "Fondations",
+    "foundations": "Avant de se consacrer pleinement au développement web, j'ai travaillé sur des projets de systèmes embarqués et d'IoT, dont une plateforme de supervision de réseaux LoRa développée dans le cadre de mon projet de fin d'études à l'INSAT.",
+    "recognitionHeading": "Distinctions",
+    "recognition": [
+      {
+        "name": "All Star Netlinks Embedded Systems Challenge",
+        "result": "2e place",
+        "period": "2017"
+      },
+      {
+        "name": "Tunirobots Exhibition",
+        "result": "2e place",
+        "detail": "Conception et développement d'une application mobile contrôlant une valise capable de suivre son propriétaire.",
+        "period": "2015"
+      }
+    ]
+  },
+  "languages": {
+    "heading": "Langues",
+    "items": [
+      { "name": "Français", "level": "Professionnel" },
+      { "name": "Anglais", "level": "Professionnel avancé" },
+      { "name": "Arabe", "level": "Langue maternelle" }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "headline": "Ouvert aux postes de Frontend Technical Lead et rôles d'ingénierie senior.",
+    "subtext": "Basé en Tunisie, ouvert aux opportunités avec des entreprises produit françaises et internationales.",
+    "email": "benhsan.houssem01@gmail.com",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "githubComingSoon": "Bientôt disponible",
+    "locationLabel": "Localisation",
+    "location": "Tunisie",
+    "downloadCv": "Télécharger le CV",
+    "sendEmail": "Envoyer un email"
+  },
+  "footer": {
+    "tagline": "Frontend Technical Lead, actuellement en montée en compétences sur l'ingénierie de l'IA.",
+    "rightsReserved": "Tous droits réservés.",
+    "backToTop": "Retour en haut"
+  }
+}
